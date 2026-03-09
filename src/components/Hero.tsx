@@ -42,7 +42,7 @@ export default function Hero() {
           <div className="glass-card p-2 md:p-4 overflow-hidden shadow-2xl shadow-indigo-500/10">
             <div className="aspect-video bg-indigo-950/50 rounded-xl relative group cursor-pointer overflow-hidden">
               <video
-                src="/videos/hero-demo.mp4"
+                src={`${import.meta.env.BASE_URL}videos/hero-demo.mp4`}
                 autoPlay
                 loop
                 muted

@@ -2,26 +2,28 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { CheckCircle2 } from 'lucide-react';
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 const demos = [
   {
     title: "AI Email Processing",
     description: "Watch as EmailQ instantly reads, summarizes, and categorizes incoming mail in real-time.",
-    video: "/videos/ai-email-processing.mp4"
+    video: `${BASE_URL}videos/ai-email-processing.mp4`
   },
   {
     title: "Smart Reply Generation",
     description: "See how RAG-based intelligence pulls from your docs to draft the perfect technical response.",
-    video: "/videos/smart-reply-generation.mp4"
+    video: `${BASE_URL}videos/smart-reply-generation.mp4`
   },
   {
     title: "Inbox Cleanup Automation",
     description: "Automatically unsubscribe from noise and archive low-priority mail without lifting a finger.",
-    video: "/videos/inbox-cleanup.mp4"
+    video: `${BASE_URL}videos/inbox-cleanup.mp4`
   },
   {
     title: "SLA Monitoring",
     description: "Real-time dashboards for organizations to track response health and team performance.",
-    video: "/videos/sla-monitoring.mp4"
+    video: `${BASE_URL}videos/sla-monitoring.mp4`
   }
 ];
 
